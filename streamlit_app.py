@@ -83,4 +83,4 @@ if streamlit.button('Add a fruit to the list'):
 #fruityvice_response = requests.get("https://fruityvice.com/api/fruit/" + fruit_choice)
 
 
-my_cur.execute("insert into FRUIT_LOAD_LIST values ('from streamlit')")
+#my_cur.execute("insert into FRUIT_LOAD_LIST values ('from streamlit')")
